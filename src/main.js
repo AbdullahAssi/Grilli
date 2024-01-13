@@ -27,11 +27,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 }
 
 
-
-/**
- * NAVBAR
- */
-
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
